@@ -36,12 +36,15 @@ Vue.use(YjsPlugin, {store: store});
 // Vue.use(LevelgraphJsonLDPlugin, {store: store});
 import VueFab from 'vue-float-action-button'
 
+// import bottomNavigationVue from "bottom-navigation-vue";
+
 Vue.use(VueFab,  {
   // opitons Optional Alibaba iconfont icon or MaterialIcons
   iconType: 'MaterialDesign'
   // iconType: 'iconfont'
 } )
 
+// Vue.use(bottomNavigationVue);
 
 // import { LayoutPlugin,
 //   ModalPlugin,

@@ -29,7 +29,8 @@ N'oubliez pas le signe de ponctuation à la fin de votre triplet, cela peut êtr
 - contenu textuel d'un noeud
 `sujet .texte "Bla bla bla".`
 
-
+# navbarbottom
+https://vue-bottom-navigation.netlify.app/v2/guide/curved
 
 
 

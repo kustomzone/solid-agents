@@ -13,8 +13,12 @@
 
   <router-view/>
 
-  <NavBar />
+  <!-- <NavBar /> -->
+
+  <BottomNavBar />
   
+
+
   <small><i>0.0.1 - tabindex="-1" & type search & navigation |
     <a href="https://github.com/scenaristeur/agent" target="_blank">contribute</a> |
     <a href="https://github.com/scenaristeur/agent/wiki" target ="_blank">help</a> |
@@ -35,7 +39,8 @@
 export default {
   name: 'App',
   components: {
-    'NavBar': ()=>import('@/views/NavBar'),
+    'BottomNavBar': ()=>import('@/views/BottomNavBar'),
+    // 'NavBar': ()=>import('@/views/NavBar'),
     // 'DataCaching': ()=>import('@/views/experiments/DataCaching'),
     // 'LevelgraphJsonld': ()=>import('@/views/experiments/LevelgraphJsonld'),
   },
